@@ -137,24 +137,44 @@ If you are getting error doing this from Visual Studio you can try to do next:
     builder.Services.AddDbContext<YourDbContext>(options =>
         options.UseSqlServer(builder.Configuration.GetConnectionString("YourConnectionStringName")));
     ```
+    put this code before "var app = builder.Build();"
 
 
-## 6. Add a Controller and View
+## 6. Modify Index.cshtml.cs in "Pages" folder
+![image](https://github.com/user-attachments/assets/433fd05e-a95e-4e25-a51b-6f087b3bcfb0)
 
-- **Right-click on the Controllers folder** in Solution Explorer, select **Add > Controller**.
-- Choose **MVC Controller - Empty**, click **Add**.
-- Name your controller (e.g., `MyDataController`) and click **Add**.
-- Register dbContext in your controller
-   ```csharp
-  private readonly YourDbContext _context;
-
-  public MyDataController(YourDbContext context)
-  {
-      _context = context;
-  }
+add Your conext:
+ ```csharp
+ private readonly BuildProject2024Context _context;
     ```
+and register your context on the page
+ ```csharp
+ public IndexModel(ILogger<IndexModel> logger, BuildProject2024Context context)
+ {
+     _logger = logger;
+     _context = context;
+ }
+```
+as a result your Class should look like this: 
+ ```csharp
+  public class IndexModel : PageModel
+  {
+      private readonly BuildProject2024Context _context;
+      private readonly ILogger<IndexModel> _logger;
+     
+      public IndexModel(ILogger<IndexModel> logger, BuildProject2024Context context)
+      {
+          _logger = logger;
+          _context = context;
+      }
 
+      public void OnGet()
+      {
 
+        
+      }
+  }
+```
 ### Add a View
 
 - Right-click inside an action method in the controller and select **Add View**.
