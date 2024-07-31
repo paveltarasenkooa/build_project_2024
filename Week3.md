@@ -100,7 +100,10 @@ Visual Studio simplifies the process of scaffolding your database context and mo
   ```powershell
   Scaffold-DbContext "YourConnectionString" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
   ```
-  example of my connection string : Data Source=LAPTOP-ML8R4NJG;Initial Catalog=BUILD_PROJECT_2024;Integrated Security=True;Encrypt=True;TrustServerCertificate=True
+  example of my connection string :
+  
+  *Data Source=LAPTOP-ML8R4NJG;Initial Catalog=BUILD_PROJECT_2024;Integrated Security=True;Encrypt=True;TrustServerCertificate=True*
+  
   This command generates the DbContext and entity models based on your database schema.
 
 If you are getting error doing this from Visual Studio you can try to do next:
