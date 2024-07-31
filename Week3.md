@@ -175,11 +175,6 @@ as a result your Class should look like this:
       }
   }
 ```
-### Add a View
-
-- Right-click inside an action method in the controller and select **Add View**.
-- Name the view (matching the action method name), ensure the template is **Empty (without model)**, and click **Add**.
-- **Update the View** to display data, using Razor syntax to iterate over the model passed from the controller.
 
 ## 7. Run Your Application
 
@@ -187,5 +182,8 @@ as a result your Class should look like this:
 - Visual Studio will open your default web browser and navigate to your application's home page.
 
 By following these instructions, you've leveraged Visual Studio Community Edition to create, develop, and run a .NET Core ASP.NET MVC application using the Database-First approach. Visual Studio provides a comprehensive development environment with powerful features for managing databases, editing code, debugging, and more, enhancing your productivity as a developer.
+
+## Example of my project I'll publish to my reposityry:
+
 
 
