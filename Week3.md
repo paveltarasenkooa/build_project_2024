@@ -183,7 +183,6 @@ as a result your Class should look like this:
 
 By following these instructions, you've leveraged Visual Studio Community Edition to create, develop, and run a .NET Core ASP.NET MVC application using the Database-First approach. Visual Studio provides a comprehensive development environment with powerful features for managing databases, editing code, debugging, and more, enhancing your productivity as a developer.
 
-## Example of my project I'll publish to my reposityry:
-
-
+## Example of my project I'll publish to my repository:
+[Link to my project code](https://github.com/paveltarasenkooa/build_project_2024/tree/main/ProjectCode)
 
