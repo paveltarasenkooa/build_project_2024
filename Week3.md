@@ -123,9 +123,9 @@ If you are getting error doing this from Visual Studio you can try to do next:
 
 - **Add Connection String to `appsettings.json`**
      ```json
-    "ConnectionStrings": {
-   "DefaultConnection": "Data Source=LAPTOP-ML8R4NJG;Initial Catalog=BUILD_PROJECT_2024;Integrated Security=True;Encrypt=True;TrustServerCertificate=True"
- }
+     
+    "ConnectionStrings": {   "DefaultConnection": "Data Source=LAPTOP-ML8R4NJG;Initial Catalog=BUILD_PROJECT_2024;Integrated Security=True;Encrypt=True;TrustServerCertificate=True"}
+     
     ```
 - **Open `Startup.cs` or `Program.cs`** (depending on your project template version) to configure the services.
 
