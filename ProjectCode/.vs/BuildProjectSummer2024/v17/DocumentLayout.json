@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|c:\\users\\ptara\\source\\repos\\summer_proget_git\\build_project_2024\\projectcode\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|c:\\users\\ptara\\source\\repos\\summer_proget_git\\build_project_2024\\projectcode\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|c:\\users\\ptara\\source\\repos\\summer_proget_git\\build_project_2024\\projectcode\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|c:\\users\\ptara\\source\\repos\\summer_proget_git\\build_project_2024\\projectcode\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|c:\\users\\ptara\\source\\repos\\summer_proget_git\\build_project_2024\\projectcode\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|c:\\users\\ptara\\source\\repos\\summer_proget_git\\build_project_2024\\projectcode\\models\\buildproject2024context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|solutionrelative:models\\buildproject2024context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-31T03:06:18.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Index.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T03:01:46.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-31T02:59:24.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAEwB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T02:54:25.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-31T02:52:53.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BuildProject2024Context.cs",
+              "DocumentMoniker": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Models\\BuildProject2024Context.cs",
+              "RelativeDocumentMoniker": "Models\\BuildProject2024Context.cs",
+              "ToolTip": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Models\\BuildProject2024Context.cs",
+              "RelativeToolTip": "Models\\BuildProject2024Context.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T02:52:16.958Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
