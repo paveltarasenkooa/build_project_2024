@@ -17,7 +17,7 @@ Thank you for participating in this project with me. Let's create something amaz
 - [Sheikh Arian](https://github.com/sheikharian/Build-Fellowship-2024.git)
 - [Sulaiman Alam](https://github.com/Sulaiman-Alam/Build-Project-2024)
 - [Tanvir Islam](https://github.com/tanviriss/Build-Fellowship-2024)
-- Xinru Yu
+- [Xinru Yu](https://github.com/q1225/Build-proiect-)
 - Yuri Santos 
 
 

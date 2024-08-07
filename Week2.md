@@ -95,7 +95,7 @@ CREATE TABLE HealthCareProvider (
     CONSTRAINT PK_HealthCareProvider PRIMARY KEY (ID)
 );
 ```
-Here column "HospitalId" serve as connection between HealthCareProvider and Hospital tables. Buth there is no constraint yet created.
+Here column "HospitalId" serve as connection between HealthCareProvider and Hospital tables. But there is no constraint yet created.
 lets create constraint:
 
  ```sql
