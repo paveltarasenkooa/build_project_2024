@@ -56,6 +56,7 @@ After all steps above our application is pulling hospitals fromm database and pa
 @page
 @model BuildProjectSummer2024.Pages.Hospital.IndexModel
 @{
+    // title that will be displayed on the top of the page
     ViewData["Title"] = "List of hospitals";
 }
 
