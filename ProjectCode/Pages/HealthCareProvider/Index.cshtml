@@ -1,0 +1,28 @@
+﻿@page
+@model BuildProjectSummer2024.Pages.HealthCareProvider.IndexModel
+@{
+    ViewData["Title"] = "List of Healthcare providers";
+}
+
+
+<h2>HealthCare Providers</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>FirstName</th>
+            <th>LastName</th>
+          
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var provider in Model.Providers)
+        {
+            <tr>
+                <td>@provider.FirstName</td>
+                <td>@provider.LastName</td>
+               
+            </tr>
+        }
+    </tbody>
+</table>
