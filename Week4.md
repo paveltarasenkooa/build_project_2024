@@ -86,3 +86,26 @@ After all steps above our application is pulling hospitals fromm database and pa
     </tbody>
 </table>
      ```
+## Let's add link to our new page to the header for easy navigation:
+In Solution Explorer go to Pages -> Shared -> _Layout.cshtml
+
+![image](https://github.com/user-attachments/assets/ccaeeba5-2fc8-4acf-949c-a13bd2ccbe1d)
+
+Find a place where link are defined and add a link to Your new page using example below:
+
+![image](https://github.com/user-attachments/assets/7b1a6fb1-a09a-4f7c-ab89-ce8d0925e23c)
+
+ ```html
+  <li class="nav-item">
+     <a class="nav-link text-dark" asp-area="" asp-page="/Hospital/Index">Hospitals</a>
+ </li>
+ ```
+
+## Important!
+### Please create minimum 3 pages using example of the page above (Ideally for all your instances)
+
+In my case to cover all data from my database I would need to create pages for Hospitals, HealthCareProviders, Patients and Medical Claims.
+
+Think what fields do You want to show and think of the order of the fields 
+
+After all pages are added please test your application. Make sure all pages are visible and displaying data from your tables.
