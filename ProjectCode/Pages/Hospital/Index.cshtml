@@ -15,6 +15,7 @@
             <th>City</th>
             <th>Adress</th>
             <th>Phone</th>
+            <th># of Patients</th>
         </tr>
     </thead>
     <tbody>
@@ -26,6 +27,11 @@
                 <td>@hospital.City</td>
                 <td>@hospital.Adress</td>
                 <td>@hospital.Phone</td>
+                <td>
+                    <a asp-page="/Patient/Index" asp-route-hospitalId="@hospital.Id">
+                        @hospital.PatientsCount
+                    </a>
+                </td>
             </tr>
         }
     </tbody>

@@ -22,8 +22,20 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/ptara/source/repos/Summer_Proget_git/build_project_2024/ProjectCode/Pages/HealthCareProvider/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGVhbHRoQ2FyZVByb3ZpZGVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ptara/source/repos/Summer_Proget_git/build_project_2024/ProjectCode/Pages/Hospital/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9zcGl0YWxcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ptara/source/repos/Summer_Proget_git/build_project_2024/ProjectCode/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ptara/source/repos/Summer_Proget_git/build_project_2024/ProjectCode/Pages/Patient/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF0aWVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ptara/source/repos/Summer_Proget_git/build_project_2024/ProjectCode/Pages/Privacy.cshtml]

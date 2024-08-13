@@ -1,0 +1,55 @@
+﻿@page
+@model BuildProjectSummer2024.Pages.Patient.IndexModel
+@{
+    // title that will be displayed on the top of the page
+    ViewData["Title"] = "List of hospitals";
+}
+
+<h2>Hospitals List</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>State</th>
+            <th>City</th>
+            <th>Adress</th>
+            <th>Phone</th>
+            <th>Name of Hospital</th>
+            <th># of Claims</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var patient in Model.Patients)
+        {
+            <tr>
+                <td>@patient.FirstName</td>
+                <td>@patient.LastName</td>
+                <td>@patient.City</td>
+                <td>@patient.Adress</td>
+                <td>@patient.Phone</td>
+                <td>@patient.Hospital.HospitalName</td>
+                <td>
+                    @patient.ClaimsCount
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+<div class="pagination">
+    @if (Model.HasPreviousPage)
+    {
+        <a class="btn btn-primary m-1" asp-page="./Index"
+           asp-route-hospitalId="@Request.Query["hospitalId"]"
+           asp-route-pageIndex="@(Model.PageIndex - 1)">Previous</a>
+    }
+
+    @if (Model.HasNextPage)
+    {
+        <a class="btn btn-primary m-1" asp-page="./Index"
+           asp-route-hospitalId="@Request.Query["hospitalId"]"
+           asp-route-pageIndex="@(Model.PageIndex + 1)">Next</a>
+    }
+</div>
