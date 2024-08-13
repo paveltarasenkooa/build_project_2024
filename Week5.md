@@ -210,3 +210,125 @@ This is updated "OnGet' method for Patients Page:
  }
 ```
 
+cshtml page code for "Patient" page should remain the same.
+
+## Important: For your project please implement cross page referencing at least for two pages in you application. F.e. Hospitals (Patient Count) -> Patients and Patients (Claims Count) -> Claims
+
+# Adding paging
+
+### 1) Lets add bootsrat to our project:
+
+Right-Click on solution -> "Manage Nuget Packages"
+
+![image](https://github.com/user-attachments/assets/c4f70df7-8fe9-4408-b483-b9c3e20ee72e)
+
+Click "Browse" and type "Bootstrap".
+
+Select and install "Bootstrap" nuget package:
+
+![image](https://github.com/user-attachments/assets/54555aed-4b8b-4947-af81-539d57e65447)
+
+Open "_Layout.cshtml" and add two links: 
+
+```html
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+```
+and
+
+```html
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+```
+
+### 2) Let's modify c# code for Patients page to add handling of pagination: 
+
+```c#
+using BuildProjectSummer2024.Models;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore;
+
+namespace BuildProjectSummer2024.Pages.Patient
+{
+    public class IndexModel : PageModel
+    {
+        private readonly BuildProject2024Context _context;
+        public List<Models.Patient> Patients;
+        public int PageIndex { get; set; } //NEW LINE
+        public int TotalPages { get; set; } //NEW LINE
+        public bool HasPreviousPage => PageIndex > 1; //NEW LINE
+        public bool HasNextPage => PageIndex < TotalPages; //NEW LINE
+
+        public IndexModel(BuildProject2024Context context)
+        {
+            _context = context;
+        }
+
+        public void OnGet(int? hospitalId, int? pageIndex)
+        {
+            const int pageSize = 5;  //NEW LINE
+            PageIndex = pageIndex ?? 1; //NEW LINE
+
+            IQueryable<Models.Patient> patientsQuery = _context.Patients; //NEW LINE
+
+            if (hospitalId.HasValue) //NEW LINE
+            {
+                patientsQuery = patientsQuery.Where(p => p.HospitalId == hospitalId); //NEW LINE
+            }
+
+            int totalPatients = patientsQuery.Count(); //NEW LINE
+            TotalPages = (int)Math.Ceiling(totalPatients / (double)pageSize); //NEW LINE
+
+            Patients = patientsQuery.Where(x=> !hospitalId.HasValue || x.HospitalId == hospitalId).Select(x => new Models.Patient
+            {
+                Id = x.Id,
+                Adress = x.Adress,
+                City = x.City,
+                ClaimsCount = x.MedicalClaims.Count,
+                Gender = x.Gender,
+                LastName = x.LastName,
+                Mrn = x.Mrn,
+                Ssn = x.Ssn,
+                HospitalId = x.HospitalId,
+                Hospital = new Models.Hospital
+                {
+                    Id = x.HospitalId,
+                    HospitalName = x.Hospital.HospitalName
+                },
+                Dob = x.Dob,
+                FirstName = x.FirstName,
+                InsuranceMemberId = x.InsuranceMemberId,
+                Phone = x.Phone,
+                State = x.State,
+                Zip = x.Zip
+            })
+            .Skip((PageIndex - 1) * pageSize) //NEW LINE
+            .Take(pageSize) //NEW LINE
+            .ToList();
+        }
+    }
+}
+
+```
+
+This code will add functionality to handle current page number and dispay selected number of recors.
+
+### 3) Let's modify chtml code and add buttons for paging to the Index.cshtml in "Patient" folder: 
+
+```html
+<div class="pagination">
+    @if (Model.HasPreviousPage)
+    {
+        <a class="btn btn-primary m-1" asp-page="./Index"
+           asp-route-hospitalId="@Request.Query["hospitalId"]"
+           asp-route-pageIndex="@(Model.PageIndex - 1)">Previous</a>
+    }
+
+    @if (Model.HasNextPage)
+    {
+        <a class="btn btn-primary m-1" asp-page="./Index"
+           asp-route-hospitalId="@Request.Query["hospitalId"]"
+           asp-route-pageIndex="@(Model.PageIndex + 1)">Next</a>
+    }
+</div>
+```
+## Important! Please add pagination to all of your pages in your application.
