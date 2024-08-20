@@ -2,10 +2,13 @@
 @model BuildProjectSummer2024.Pages.Patient.IndexModel
 @{
     // title that will be displayed on the top of the page
-    ViewData["Title"] = "List of hospitals";
+    ViewData["Title"] = "List of patients";
 }
 
 <h2>Hospitals List</h2>
+<p>
+<a class="btn btn-primary m-1" asp-page="./Edit">Add Patient</a>
+</p>
 
 <table class="table">
     <thead>
@@ -17,6 +20,8 @@
             <th>Phone</th>
             <th>Name of Hospital</th>
             <th># of Claims</th>
+            <th>Action</th>
+
         </tr>
     </thead>
     <tbody>
@@ -28,9 +33,13 @@
                 <td>@patient.City</td>
                 <td>@patient.Adress</td>
                 <td>@patient.Phone</td>
-                <td>@patient.Hospital.HospitalName</td>
+                <td>@patient.HospitalName</td>
                 <td>
                     @patient.ClaimsCount
+                </td>
+                <td>
+                    <!-- Edit link -->
+                    <a class="btn btn-secondary" asp-page="./Edit" asp-route-id="@patient.Id">Edit</a>
                 </td>
             </tr>
         }

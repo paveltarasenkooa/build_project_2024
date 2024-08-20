@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|c:\\users\\ptara\\source\\repos\\summer_proget_git\\build_project_2024\\projectcode\\pages\\patient\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|solutionrelative:pages\\patient\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|c:\\users\\ptara\\source\\repos\\summer_proget_git\\build_project_2024\\projectcode\\pages\\patient\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|solutionrelative:pages\\patient\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|c:\\users\\ptara\\source\\repos\\summer_proget_git\\build_project_2024\\projectcode\\pages\\patient\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|solutionrelative:pages\\patient\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|c:\\users\\ptara\\source\\repos\\summer_proget_git\\build_project_2024\\projectcode\\pages\\patient\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|solutionrelative:pages\\patient\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|c:\\users\\ptara\\source\\repos\\summer_proget_git\\build_project_2024\\projectcode\\models\\pagemodels\\patientmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|solutionrelative:models\\pagemodels\\patientmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|c:\\users\\ptara\\source\\repos\\summer_proget_git\\build_project_2024\\projectcode\\pages\\healthcareprovider\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|solutionrelative:pages\\healthcareprovider\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|c:\\users\\ptara\\source\\repos\\summer_proget_git\\build_project_2024\\projectcode\\pages\\healthcareprovider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|solutionrelative:pages\\healthcareprovider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|c:\\users\\ptara\\source\\repos\\summer_proget_git\\build_project_2024\\projectcode\\models\\hospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|solutionrelative:models\\hospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|c:\\users\\ptara\\source\\repos\\summer_proget_git\\build_project_2024\\projectcode\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|solutionrelative:models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|c:\\users\\ptara\\source\\repos\\summer_proget_git\\build_project_2024\\projectcode\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|c:\\users\\ptara\\source\\repos\\summer_proget_git\\build_project_2024\\projectcode\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|c:\\users\\ptara\\source\\repos\\summer_proget_git\\build_project_2024\\projectcode\\pages\\patient\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|solutionrelative:pages\\patient\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|c:\\users\\ptara\\source\\repos\\summer_proget_git\\build_project_2024\\projectcode\\pages\\hospital\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -31,16 +59,8 @@
       "RelativeMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|solutionrelative:models\\modelextensions\\hospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|c:\\users\\ptara\\source\\repos\\summer_proget_git\\build_project_2024\\projectcode\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|solutionrelative:models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|c:\\users\\ptara\\source\\repos\\summer_proget_git\\build_project_2024\\projectcode\\models\\buildproject2024context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|solutionrelative:models\\buildproject2024context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|c:\\users\\ptara\\source\\repos\\summer_proget_git\\build_project_2024\\projectcode\\models\\modelextensions\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|solutionrelative:models\\modelextensions\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|c:\\users\\ptara\\source\\repos\\summer_proget_git\\build_project_2024\\projectcode\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -53,10 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|c:\\users\\ptara\\source\\repos\\summer_proget_git\\build_project_2024\\projectcode\\models\\healthcareproviderrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|solutionrelative:models\\healthcareproviderrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|c:\\users\\ptara\\source\\repos\\summer_proget_git\\build_project_2024\\projectcode\\models\\hospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|solutionrelative:models\\hospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|c:\\users\\ptara\\source\\repos\\summer_proget_git\\build_project_2024\\projectcode\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -78,11 +94,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Pages\\HealthCareProvider\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\HealthCareProvider\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Pages\\HealthCareProvider\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\HealthCareProvider\\Index.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T21:07:32.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Pages\\HealthCareProvider\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\HealthCareProvider\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Pages\\HealthCareProvider\\Index.cshtml",
+              "RelativeToolTip": "Pages\\HealthCareProvider\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-20T21:07:28.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PatientModel.cs",
+              "DocumentMoniker": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Models\\PageModels\\PatientModel.cs",
+              "RelativeDocumentMoniker": "Models\\PageModels\\PatientModel.cs",
+              "ToolTip": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Models\\PageModels\\PatientModel.cs",
+              "RelativeToolTip": "Models\\PageModels\\PatientModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAA/wCAAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T20:31:22.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Pages\\Patient\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Patient\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Pages\\Patient\\Edit.cshtml.cs",
+              "RelativeToolTip": "Pages\\Patient\\Edit.cshtml.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAhwEgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T20:11:29.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Hospital.cs",
               "DocumentMoniker": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Models\\ModelExtensions\\Hospital.cs",
               "RelativeDocumentMoniker": "Models\\ModelExtensions\\Hospital.cs",
@@ -90,12 +158,11 @@
               "RelativeToolTip": "Models\\ModelExtensions\\Hospital.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T19:20:36.204Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T19:20:36.204Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 7,
               "Title": "Hospital.cs",
               "DocumentMoniker": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Models\\Hospital.cs",
               "RelativeDocumentMoniker": "Models\\Hospital.cs",
@@ -103,12 +170,11 @@
               "RelativeToolTip": "Models\\Hospital.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T19:19:27.177Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T19:19:27.177Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\Index.cshtml",
@@ -116,12 +182,11 @@
               "RelativeToolTip": "Pages\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-31T03:06:18.104Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-31T03:06:18.104Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Pages\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
@@ -129,25 +194,11 @@
               "RelativeToolTip": "Pages\\Index.cshtml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T03:01:46.151Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-31T03:01:46.151Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Patient.cs",
-              "DocumentMoniker": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Models\\ModelExtensions\\Patient.cs",
-              "RelativeDocumentMoniker": "Models\\ModelExtensions\\Patient.cs",
-              "ToolTip": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Models\\ModelExtensions\\Patient.cs",
-              "RelativeToolTip": "Models\\ModelExtensions\\Patient.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T19:34:15.995Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "BuildProject2024Context.cs",
               "DocumentMoniker": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Models\\BuildProject2024Context.cs",
               "RelativeDocumentMoniker": "Models\\BuildProject2024Context.cs",
@@ -155,31 +206,29 @@
               "RelativeToolTip": "Models\\BuildProject2024Context.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T02:52:16.958Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-31T02:52:16.958Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Patient.cs",
               "DocumentMoniker": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Models\\Patient.cs",
               "RelativeDocumentMoniker": "Models\\Patient.cs",
               "ToolTip": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Models\\Patient.cs",
               "RelativeToolTip": "Models\\Patient.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAA+wBkAAAAmAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAkwCUAAABkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T19:34:18.529Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T19:34:18.529Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Pages\\Patient\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\Patient\\Index.cshtml",
               "ToolTip": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Pages\\Patient\\Index.cshtml",
               "RelativeToolTip": "Pages\\Patient\\Index.cshtml",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAqwDIAAAAlAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAUwCsAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-13T19:33:17.272Z",
               "EditorCaption": ""
@@ -192,14 +241,27 @@
               "RelativeDocumentMoniker": "Pages\\Patient\\Index.cshtml.cs",
               "ToolTip": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Pages\\Patient\\Index.cshtml.cs",
               "RelativeToolTip": "Pages\\Patient\\Index.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAARAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-13T19:33:24.818Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Pages\\Patient\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Patient\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Pages\\Patient\\Edit.cshtml",
+              "RelativeToolTip": "Pages\\Patient\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-20T20:10:42.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
@@ -207,12 +269,11 @@
               "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAACEAAAAAAAAAAAAAADkAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-13T19:40:18.42Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T19:40:18.42Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -220,12 +281,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAEwB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T02:54:25.402Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-31T02:54:25.402Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Pages\\Hospital\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\Hospital\\Index.cshtml",
@@ -233,12 +293,11 @@
               "RelativeToolTip": "Pages\\Hospital\\Index.cshtml",
               "ViewState": "AQIAAAcAAAAAAAAAAAAmwBgAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-13T19:21:53.919Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T19:21:53.919Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Pages\\Hospital\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Hospital\\Index.cshtml.cs",
@@ -246,12 +305,11 @@
               "RelativeToolTip": "Pages\\Hospital\\Index.cshtml.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAqwCIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T19:21:58.653Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T19:21:58.653Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "HealthCareProviderRole.cs",
               "DocumentMoniker": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Models\\HealthCareProviderRole.cs",
               "RelativeDocumentMoniker": "Models\\HealthCareProviderRole.cs",
@@ -259,12 +317,11 @@
               "RelativeToolTip": "Models\\HealthCareProviderRole.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T19:21:18.557Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T19:21:18.557Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "HealthCareProvider.cs",
               "DocumentMoniker": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Models\\HealthCareProvider.cs",
               "RelativeDocumentMoniker": "Models\\HealthCareProvider.cs",
@@ -272,12 +329,11 @@
               "RelativeToolTip": "Models\\HealthCareProvider.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAxwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T19:21:19.143Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T19:21:19.143Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -285,12 +341,11 @@
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AQIAAAMAAAAAAAAAAIBMwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-31T02:59:24.921Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-31T02:59:24.921Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -298,8 +353,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-31T02:52:53.802Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-31T02:52:53.802Z"
             }
           ]
         }

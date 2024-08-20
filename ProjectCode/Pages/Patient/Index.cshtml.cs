@@ -1,4 +1,5 @@
 using BuildProjectSummer2024.Models;
+using BuildProjectSummer2024.Models.PageModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
@@ -8,7 +9,7 @@ namespace BuildProjectSummer2024.Pages.Patient
     public class IndexModel : PageModel
     {
         private readonly BuildProject2024Context _context;
-        public List<Models.Patient> Patients;
+        public List<PatientModel> Patients;
         public int PageIndex { get; set; }
         public int TotalPages { get; set; }
         public bool HasPreviousPage => PageIndex > 1;
@@ -34,7 +35,7 @@ namespace BuildProjectSummer2024.Pages.Patient
             int totalPatients = patientsQuery.Count();
             TotalPages = (int)Math.Ceiling(totalPatients / (double)pageSize);
 
-            Patients = patientsQuery.Where(x=> !hospitalId.HasValue || x.HospitalId == hospitalId).Select(x => new Models.Patient
+            Patients = patientsQuery.Where(x=> !hospitalId.HasValue || x.HospitalId == hospitalId).Select(x => new PatientModel
             {
                 Id = x.Id,
                 Adress = x.Adress,
@@ -45,11 +46,7 @@ namespace BuildProjectSummer2024.Pages.Patient
                 Mrn = x.Mrn,
                 Ssn = x.Ssn,
                 HospitalId = x.HospitalId,
-                Hospital = new Models.Hospital
-                {
-                    Id = x.HospitalId,
-                    HospitalName = x.Hospital.HospitalName
-                },
+                HospitalName =  x.Hospital.HospitalName,
                 Dob = x.Dob,
                 FirstName = x.FirstName,
                 InsuranceMemberId = x.InsuranceMemberId,
