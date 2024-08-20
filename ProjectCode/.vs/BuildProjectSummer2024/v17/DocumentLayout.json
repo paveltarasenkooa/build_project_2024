@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|c:\\users\\ptara\\source\\repos\\summer_proget_git\\build_project_2024\\projectcode\\pages\\patient\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|solutionrelative:pages\\patient\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|c:\\users\\ptara\\source\\repos\\summer_proget_git\\build_project_2024\\projectcode\\pages\\patient\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|solutionrelative:pages\\patient\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|c:\\users\\ptara\\source\\repos\\summer_proget_git\\build_project_2024\\projectcode\\pages\\patient\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|solutionrelative:pages\\patient\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|c:\\users\\ptara\\source\\repos\\summer_proget_git\\build_project_2024\\projectcode\\pages\\patient\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|solutionrelative:pages\\patient\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE6EC7FC-7E97-49FB-A25C-EBAEF240B84D}|BuildProjectSummer2024.csproj|c:\\users\\ptara\\source\\repos\\summer_proget_git\\build_project_2024\\projectcode\\pages\\patient\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -94,7 +94,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
@@ -130,20 +130,20 @@
               "RelativeDocumentMoniker": "Models\\PageModels\\PatientModel.cs",
               "ToolTip": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Models\\PageModels\\PatientModel.cs",
               "RelativeToolTip": "Models\\PageModels\\PatientModel.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAA/wCAAAAArAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAA6wCQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-20T20:31:22.862Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Edit.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Pages\\Patient\\Edit.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Patient\\Edit.cshtml.cs",
               "ToolTip": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Pages\\Patient\\Edit.cshtml.cs",
               "RelativeToolTip": "Pages\\Patient\\Edit.cshtml.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAhwEgAAAAVAAAA",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAgwG4AAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-20T20:11:29.458Z",
               "EditorCaption": ""
@@ -222,13 +222,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Pages\\Patient\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\Patient\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Pages\\Patient\\Index.cshtml",
-              "RelativeToolTip": "Pages\\Patient\\Index.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAUwCsAAAARAAAA",
+              "ToolTip": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Pages\\Patient\\Index.cshtml*",
+              "RelativeToolTip": "Pages\\Patient\\Index.cshtml*",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACoAAABmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-13T19:33:17.272Z",
               "EditorCaption": ""
@@ -241,20 +241,20 @@
               "RelativeDocumentMoniker": "Pages\\Patient\\Index.cshtml.cs",
               "ToolTip": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Pages\\Patient\\Index.cshtml.cs",
               "RelativeToolTip": "Pages\\Patient\\Index.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAA4AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-13T19:33:24.818Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Pages\\Patient\\Edit.cshtml",
               "RelativeDocumentMoniker": "Pages\\Patient\\Edit.cshtml",
               "ToolTip": "C:\\Users\\ptara\\source\\repos\\Summer_Proget_git\\build_project_2024\\ProjectCode\\Pages\\Patient\\Edit.cshtml",
               "RelativeToolTip": "Pages\\Patient\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAwAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAgwEIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-20T20:10:42.968Z",
               "EditorCaption": ""
