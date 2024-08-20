@@ -163,7 +163,7 @@ namespace BuildProjectSummer2024.Pages.Patient
         [BindProperty]
         public PatientModel Patient { get; set; }
         public SelectList Hospitals { get; set; }
-        public void OnGet(int? id)
+        public void OnGet(int? id) // Action to displat data for existing patient or page to add new patient
         {
             if (id == null)
             {
@@ -204,7 +204,7 @@ namespace BuildProjectSummer2024.Pages.Patient
 
            
         }
-        public async Task<IActionResult> OnPost()
+        public async Task<IActionResult> OnPost() // action that is used to save patients information to the database
         {
             if (!ModelState.IsValid)
             {
@@ -259,5 +259,108 @@ namespace BuildProjectSummer2024.Pages.Patient
     }
 }
 ```
-   
 
+"public SelectList Hospitals { get; set; }" property is used to populate dropdown with hospitals on add/edit page for patient;
+
+3) Let's add some code to "Edit.cshtml" file:
+
+```HTML
+@page
+@model BuildProjectSummer2024.Pages.Patient.EditModel
+@{
+}
+
+<h2>@(Model.Patient.Id == 0 ? "Add Patient" : "Edit Patient")</h2>
+
+<form method="post">
+
+    <input type="hidden" asp-for="Patient.Id" />
+    <div class="form-group">
+        <label asp-for="Patient.FirstName"></label>
+        <input asp-for="Patient.FirstName" class="form-control" />
+        <span asp-validation-for="Patient.FirstName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Patient.LastName"></label>
+        <input asp-for="Patient.LastName" class="form-control" />
+        <span asp-validation-for="Patient.LastName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Patient.Dob"></label>
+        <input asp-for="Patient.Dob" class="form-control" type="date" />
+        <span asp-validation-for="Patient.Dob" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Patient.Gender"></label>
+        <input asp-for="Patient.Gender" class="form-control" />
+        <span asp-validation-for="Patient.Gender" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Patient.Adress"></label>
+        <input asp-for="Patient.Adress" class="form-control" />
+        <span asp-validation-for="Patient.Adress" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Patient.City"></label>
+        <input asp-for="Patient.City" class="form-control" />
+        <span asp-validation-for="Patient.City" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Patient.State"></label>
+        <input asp-for="Patient.State" class="form-control" />
+        <span asp-validation-for="Patient.State" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Patient.Zip"></label>
+        <input asp-for="Patient.Zip" class="form-control" />
+        <span asp-validation-for="Patient.Zip" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Patient.Phone"></label>
+        <input asp-for="Patient.Phone" class="form-control" />
+        <span asp-validation-for="Patient.Phone" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Patient.HospitalId"></label>
+        <select asp-for="Patient.HospitalId" class="form-control" asp-items="Model.Hospitals"></select>
+        <span asp-validation-for="Patient.HospitalId" class="text-danger"></span>
+    </div>
+    </br>
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+```
+
+Added page will be used for both add *Add* and *Edit* operations. 
+
+4) Let's add a reference for this page to patients list page:
+
+   Add next code :
+   
+```HTML
+<p>
+<a class="btn btn-primary m-1" asp-page="./Edit">Add Patient</a>
+</p>
+  ```
+
+After your </h2> closing tag. After This code added You will see "Add Patient" button on Patient's list page that will redirect you to the page for patient add.
+
+5) Let's add "Edit" link to table with our patients;
+
+      Add new <th> line to <thead><tr> section:
+```HTML
+   <th>Action</th>
+```
+
+Add new  <td> line to <tbody> section: 
+
+```HTML
+<a class="btn btn-secondary" asp-page="./Edit" asp-route-id="@patient.Id">Edit</a>
+```
+
+Your new page should be ready! Please do testing for all fields to make sure that all fields are editable from "Edit" page.
+
+## Important: Please add Add/Edit pages for at least two instances in your application. f.e. Patient and Hospital.
