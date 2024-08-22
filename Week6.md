@@ -346,7 +346,7 @@ Added page will be used for both add *Add* and *Edit* operations.
 </p>
   ```
 
-After your </h2> closing tag. After This code added You will see "Add Patient" button on Patient's list page that will redirect you to the page for patient add.
+After your </h2> closing tag. After This code added You will see "Add Patient" button on Patient's list page **"Index"** that will redirect you to the page for patient add.
 
 5) Let's add "Edit" link to table with our patients;
 
