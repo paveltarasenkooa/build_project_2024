@@ -10,6 +10,7 @@ namespace BuildProjectSummer2024.Pages.Patient
     {
         private readonly BuildProject2024Context _context;
         public List<PatientModel> Patients;
+        public string HospitalName { get; set; }
         public int PageIndex { get; set; }
         public int TotalPages { get; set; }
         public bool HasPreviousPage => PageIndex > 1;
@@ -30,12 +31,13 @@ namespace BuildProjectSummer2024.Pages.Patient
             if (hospitalId.HasValue)
             {
                 patientsQuery = patientsQuery.Where(p => p.HospitalId == hospitalId);
+                HospitalName = _context.Hospitals.Find(hospitalId).HospitalName;
             }
 
             int totalPatients = patientsQuery.Count();
             TotalPages = (int)Math.Ceiling(totalPatients / (double)pageSize);
 
-            Patients = patientsQuery.Where(x=> !hospitalId.HasValue || x.HospitalId == hospitalId).Select(x => new PatientModel
+            Patients = patientsQuery.Where(x => !hospitalId.HasValue || x.HospitalId == hospitalId).Select(x => new PatientModel
             {
                 Id = x.Id,
                 Adress = x.Adress,
@@ -46,7 +48,7 @@ namespace BuildProjectSummer2024.Pages.Patient
                 Mrn = x.Mrn,
                 Ssn = x.Ssn,
                 HospitalId = x.HospitalId,
-                HospitalName =  x.Hospital.HospitalName,
+                HospitalName = x.Hospital.HospitalName,
                 Dob = x.Dob,
                 FirstName = x.FirstName,
                 InsuranceMemberId = x.InsuranceMemberId,

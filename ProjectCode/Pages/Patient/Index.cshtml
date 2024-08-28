@@ -2,64 +2,73 @@
 @model BuildProjectSummer2024.Pages.Patient.IndexModel
 @{
     // title that will be displayed on the top of the page
-    ViewData["Title"] = "List of patients";
+    ViewData["Title"] = "List of patient";
 }
 
-<h2>Patients List</h2>
+@if (Model.HospitalName != null)
+{
+    <h2>Patient List for @Model.HospitalName</h2>
+}
+else
+{
+    <h2>Patient List </h2>
+}
 
 <p>
-<a class="btn btn-primary m-1" asp-page="./Edit">Add Patient</a>
+    <a class="btn btn-primary m-1" asp-page="./Edit">Add Patient</a>
 </p>
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>Name</th>
-            <th>State</th>
-            <th>City</th>
-            <th>Adress</th>
-            <th>Phone</th>
-            <th>Name of Hospital</th>
-            <th># of Claims</th>
-            <th>Action</th>
-
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var patient in Model.Patients)
-        {
+<div class="table-container">
+    <table class="table">
+        <thead>
             <tr>
-                <td>@patient.FirstName</td>
-                <td>@patient.LastName</td>
-                <td>@patient.City</td>
-                <td>@patient.Adress</td>
-                <td>@patient.Phone</td>
-                <td>@patient.HospitalName</td>
-                <td>
-                    @patient.ClaimsCount
-                </td>
-                <td>
-                    <!-- Edit link -->
-                    <a class="btn btn-secondary" asp-page="./Edit" asp-route-id="@patient.Id">Edit</a>
-                </td>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>DOB</th>
+                <th>City</th>
+                <th>Adress</th>
+                <th>Phone</th>
+                <th>Name of Hospital</th>
+                <th># of Claims</th>
+                <th>Action</th>
             </tr>
+        </thead>
+        <tbody>
+            @foreach (var patient in Model.Patients)
+            {
+                <tr>
+                    <td>@patient.FirstName</td>
+                    <td>@patient.LastName</td>
+                    <td>@patient.Dob</td>
+                    <td>@patient.City</td>
+                    <td>@patient.Adress</td>
+                    <td>@patient.Phone</td>
+                    <td>@patient.HospitalName</td>
+                    <td>
+                        @patient.ClaimsCount
+                    </td>
+                    <td>
+                        <a class="btn btn-secondary" asp-page="./Edit" asp-route-id="@patient.Id">Edit</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+    <div class="pagination">
+        @if (Model.HasPreviousPage)
+        {
+            <a class="btn btn-primary m-1" asp-page="./Index"
+               asp-route-hospitalId="@Request.Query["hospitalId"]"
+               asp-route-pageIndex="@(Model.PageIndex - 1)">Previous</a>
         }
-    </tbody>
-</table>
 
-
-<div class="pagination">
-    @if (Model.HasPreviousPage)
-    {
-        <a class="btn btn-primary m-1" asp-page="./Index"
-           asp-route-hospitalId="@Request.Query["hospitalId"]"
-           asp-route-pageIndex="@(Model.PageIndex - 1)">Previous</a>
-    }
-
-    @if (Model.HasNextPage)
-    {
-        <a class="btn btn-primary m-1" asp-page="./Index"
-           asp-route-hospitalId="@Request.Query["hospitalId"]"
-           asp-route-pageIndex="@(Model.PageIndex + 1)">Next</a>
-    }
+        @if (Model.HasNextPage)
+        {
+            <a class="btn btn-primary m-1" asp-page="./Index"
+               asp-route-hospitalId="@Request.Query["hospitalId"]"
+               asp-route-pageIndex="@(Model.PageIndex + 1)">Next</a>
+        }
+    </div>
 </div>
+

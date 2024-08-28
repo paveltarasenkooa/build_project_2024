@@ -1,4 +1,5 @@
 using BuildProjectSummer2024.Models;
+using BuildProjectSummer2024.Models.PageModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
@@ -9,7 +10,7 @@ namespace BuildProjectSummer2024.Pages.Hospital
         // we need to add context to have access to our database
         private readonly BuildProject2024Context _context;
         // in Hospitals variable we will store our hospitals from database
-        public List<Models.Hospital> Hospitals;
+        public List<HospitalModel> Hospitals;
 
         //let's initialise our context
         public IndexModel(BuildProject2024Context context)
@@ -20,7 +21,7 @@ namespace BuildProjectSummer2024.Pages.Hospital
         // OnGet method is called when page is loaded. Lets pull all hospitals from our database
         public void OnGet()
         {
-            Hospitals = _context.Hospitals.Select(x=> new Models.Hospital
+            Hospitals = _context.Hospitals.Select(x=> new HospitalModel
             {
                 Id = x.Id,
                 Adress = x.Adress,
