@@ -140,3 +140,105 @@ Let's add "Back buttons" to add/edit pages that will redirect users to pages wit
     <a class="btn btn-secondary m-1" asp-page="./Index">Back</a>
 </p>
 ```
+
+![image](https://github.com/user-attachments/assets/1e0b1249-6d42-4dc9-8499-da4f1e90671d)
+
+Now users would be able to navigate to patient page list using "Back" button. 
+
+## Let's add some additional information for filtered pages.
+
+Add hospital name to patients list pages when filtered by hospital: 
+
+Modify Patient ->  Index.cshtml.cs and add "HospitalName property". Populate this property with value if page is filtered by hospital Id:
+
+```c#
+using BuildProjectSummer2024.Models;
+using BuildProjectSummer2024.Models.PageModels;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore;
+
+namespace BuildProjectSummer2024.Pages.Patient
+{
+    public class IndexModel : PageModel
+    {
+        private readonly BuildProject2024Context _context;
+        public List<PatientModel> Patients;
+
+// THIS LINE IS ADDED
+        public string  HospitalName { get; set; }
+
+        public int PageIndex { get; set; }
+        public int TotalPages { get; set; }
+        public bool HasPreviousPage => PageIndex > 1;
+        public bool HasNextPage => PageIndex < TotalPages;
+
+        public IndexModel(BuildProject2024Context context)
+        {
+            _context = context;
+        }
+
+        public void OnGet(int? hospitalId, int? pageIndex)
+        {
+            const int pageSize = 5; // Adjust the page size as needed
+            PageIndex = pageIndex ?? 1;
+
+            IQueryable<Models.Patient> patientsQuery = _context.Patients;
+
+            if (hospitalId.HasValue)
+            {
+                patientsQuery = patientsQuery.Where(p => p.HospitalId == hospitalId);
+
+// THIS LINE IS ADDED
+                HospitalName = _context.Hospitals.Find(hospitalId).HospitalName;
+            }
+
+            int totalPatients = patientsQuery.Count();
+            TotalPages = (int)Math.Ceiling(totalPatients / (double)pageSize);
+
+            Patients = patientsQuery.Where(x=> !hospitalId.HasValue || x.HospitalId == hospitalId).Select(x => new PatientModel
+            {
+                Id = x.Id,
+                Adress = x.Adress,
+                City = x.City,
+                ClaimsCount = x.MedicalClaims.Count,
+                Gender = x.Gender,
+                LastName = x.LastName,
+                Mrn = x.Mrn,
+                Ssn = x.Ssn,
+                HospitalId = x.HospitalId,
+                HospitalName = x.Hospital.HospitalName,
+                Dob = x.Dob,
+                FirstName = x.FirstName,
+                InsuranceMemberId = x.InsuranceMemberId,
+                Phone = x.Phone,
+                State = x.State,
+                Zip = x.Zip
+            })
+            .Skip((PageIndex - 1) * pageSize)
+            .Take(pageSize)
+            .ToList();
+        }
+    }
+}
+
+```
+
+open Patient -> Index.cshtml file and change h2 element from:
+
+```html
+<h2>Patient List </h2>
+```
+
+to
+
+```html
+@if (Model.HospitalName != null){
+    <h2>Patient List for @Model.HospitalName</h2>}
+    else{
+    <h2>Patient List </h2>}
+```
+
+Now when we will navigate from hospital page then we will see the name of hospital on the page.
+
+### Please think of additional adjustments that You can do to the style/user experience of your application. 
